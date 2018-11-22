@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"><parameter name="URL" value="http://performancetestingpractice.com"></parameter><test thread-count="5" name="Test">
+    <classes>
+      <class name="signIn.ControllerClassTest"/>
+      <class name="signIn.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+	<listeners>
+		<listener class-name="signIn.listeners"></listener><listener class-name="signIn.ExtentReporterNG"></listener></listeners>
+</suite> <!-- Suite -->
