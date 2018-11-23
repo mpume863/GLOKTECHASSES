@@ -1,4 +1,5 @@
-# GKTTECHASSESS
+= GKTTECHASSESS
+
 Selenium Technical Assesment
 
 Environment Requirement
@@ -24,6 +25,4 @@ Execute the project
 5.On eclipse IDE Project right click on the testng.xml and select run as >> testng
 6.Navigate to the project repository to access the test report: test output>>â€œSignInTestReport.htmlâ€�
 7.Navigate to the project repository to access the screenshot
-
- 
 
